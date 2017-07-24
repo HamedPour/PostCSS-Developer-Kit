@@ -1,20 +1,43 @@
 
-<!-- ################################################# Notes on How to Start -->
-Initially the "build" folder will not have been created yet.
-Therefor the html will not have ref for it.
-You can init but using gulp. Type command "gulp watch" in terminal
-then navigate your editor to "assets". As you save your
-work in both "styles" and "scripts" gulp will auto great
-the built version in "Build" folder
---------------------------------------------------------------------------------
+# PostCSS-Starter-Kit
+
+
+I put together this compact kit for a quick and rapid start using postcss and
+a few of its very useful plugins.
+
+## Installing / Getting started
+
+A quick introduction of the minimal setup you need to get a hello world up &
+running.
+
+```shell
+gulp watch
+```
+
+Watch will activate browser-sync and start watching your files in the "app" (or src) folders. As you save your work in both "styles" and "scripts" folders gulp will automatically create
+the built version in "Build" folder.
+
+```shell
+gulp icons
+```
+
 the command "gulp icons" will automatically create a "sprite" version of your
 SVGs in the "Icon" folder. To link it to your html make sure its added to
 the "assets" -> master.css file.
---------------------------------------------------------------------------------
+
+```shell
+gulp build
+```
+
 gulp Build: will create a "docs" folder for deployment.
 This can be changed to "dist" in the gulp tasks folder in build.js.
---------------------------------------------------------------------------------
-You can preview your completed website with "gulp previewDist" command.
+
+```shell
+gulp previewDist
+```
+
+You can preview your completed website in the "build" folder
+with the "gulp previewDist" command.
 
 
 
@@ -26,12 +49,12 @@ You can preview your completed website with "gulp previewDist" command.
 
 <picture>
 
-  <source sizes="404px" data-srcset="assets/images/our-start.jpg 404w,
+  <source sizes="404px" data-srcset="assets/images/someSmallPicture.jpg 404w,
   assets/images/our-start-hi-dpi.jpg 808w" media="(min-width: 1020px)">
 
 
-  <img class="lazyload" data-srcset="assets/images/our-start-landscape.jpg 800w,
-  assets/images/our-start-landscape-hi-dpi.jpg 1600w" alt="Our Founder: Jane Doe">
+  <img class="lazyload" data-srcset="assets/images/someLandscapPicture.jpg 800w,
+  assets/images/our-start-landscape-hi-dpi.jpg 1600w" alt="Format-Like-This">
 
 </picture>
 <!-- ##################################################### PERSONAL NOTES-- END>
