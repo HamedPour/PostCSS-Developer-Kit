@@ -1,7 +1,7 @@
 {
   "name": "postcss-starter-kit",
   "version": "1.0.0",
-  "description": "",
+  "description": "A quick PostCss starter kit with a lot dev and prod plugins",
   "main": "App.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +10,41 @@
     "postcss"
   ],
   "author": "Hamed Pour",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "jquery-smooth-scroll": "^2.2.0",
+    "lazysizes": "^4.0.0-rc1",
+    "picturefill": "^3.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "browser-sync": "^2.18.12",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.3.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-modernizr": "^1.0.0-alpha",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rev": "^7.1.2",
+    "gulp-svg-sprite": "^1.3.1",
+    "gulp-svg2png": "^0.3.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-usemin": "^0.3.28",
+    "gulp-watch": "^4.3.11",
+    "postcss": "^6.0.1",
+    "postcss-hexrgba": "^0.2.1",
+    "postcss-import": "^10.0.0",
+    "postcss-mixins": "^6.0.0",
+    "postcss-nested": "^2.0.2",
+    "postcss-normalize": "^2.0.0",
+    "postcss-simple-vars": "^4.0.0",
+    "waypoints": "^4.0.1",
+    "webpack": "^2.6.1"
+  }
 }

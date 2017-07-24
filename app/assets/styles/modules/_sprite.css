@@ -1,0 +1,40 @@
+/*Do not edit mdoules/_sprite directly as it is generated automatically by Gulp
+Instead edit gulp/templates/sprite.css */
+
+    .icon {
+      background-image: url('../../assets/images/sprites/sprite-3dc83d52.svg');
+    }
+
+    .no-svg . icon {
+      background-image: url('../../assets/images/sprites/sprite-3dc83d52.png');
+    }
+  .icon--facebook {
+    width: 23.23px;
+    height: 44.01px;
+    background-position: 36.89373670851341% 98.52216748768471%
+  }
+  .icon--globe {
+    width: 66px;
+    height: 66px;
+    background-position: 0 0
+  }
+  .icon--instagram {
+    width: 44.01px;
+    height: 44.01px;
+    background-position: 61.61292903432275% 98.52216748768471%
+  }
+  .icon--mail {
+    width: 66px;
+    height: 50px;
+    background-position: 64.07766990291262% 0
+  }
+  .icon--twitter {
+    width: 53.78px;
+    height: 44.06px;
+    background-position: 0 98.59575739468181%
+  }
+  .icon--youtube {
+    width: 36.75px;
+    height: 44px;
+    background-position: 99.8109640831758% 0
+  }
