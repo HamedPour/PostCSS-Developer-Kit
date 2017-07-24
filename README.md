@@ -50,11 +50,11 @@ with the "gulp previewDist" command.
 picture
 
   source sizes="404px" data-srcset="assets/images/someSmallPicture.jpg 404w,
-  assets/images/our-start-hi-dpi.jpg 808w" media="(min-width: 1020px)"
+  assets/images/someSmallPicture-hi-dpi.jpg 808w" media="(min-width: 1020px)"
 
 
   img class="lazyload" data-srcset="assets/images/someLandscapPicture.jpg 800w,
-  assets/images/our-start-landscape-hi-dpi.jpg 1600w" alt="Format-Like-This"
+  assets/images/someLandscapPicture-landscape-hi-dpi.jpg 1600w" alt="Format-Like-This"
 
 /picture
 <!-- ##################################################### PERSONAL NOTES-- END>
