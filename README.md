@@ -47,14 +47,14 @@ with the "gulp previewDist" command.
 
 ### For Images follow this format when possible:
 
-<picture>
+//<picture>
 
-  <source sizes="404px" data-srcset="assets/images/someSmallPicture.jpg 404w,
+  //<source sizes="404px" data-srcset="assets/images/someSmallPicture.jpg 404w,
   assets/images/our-start-hi-dpi.jpg 808w" media="(min-width: 1020px)">
 
 
-  <img class="lazyload" data-srcset="assets/images/someLandscapPicture.jpg 800w,
+  //<img class="lazyload" data-srcset="assets/images/someLandscapPicture.jpg 800w,
   assets/images/our-start-landscape-hi-dpi.jpg 1600w" alt="Format-Like-This">
 
-</picture>
+//</picture>
 <!-- ##################################################### PERSONAL NOTES-- END>
