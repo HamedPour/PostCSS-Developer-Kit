@@ -1,0 +1,34 @@
+.topSection{
+  height: 100vh;
+  width: 100vw;
+  background: url("../assets/images/topBackground.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+
+  &-title {
+    margin: 0;
+    padding: 0;
+    font-size: 4.4rem;
+    padding-top: 62px;
+    padding-left: 125px;
+
+    aside:nth-child(2){
+      padding-left: 140px;
+    }
+    aside:nth-child(3){
+      padding-left: 280px;
+    }
+
+    &-sub{
+      color: #fff;
+      font-size: 1.8rem;
+      text-align: center;
+      max-width: 460px;
+      padding-top: 130px;
+      margin-left: 160px;
+    }
+  }
+}

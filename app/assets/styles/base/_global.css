@@ -1,7 +1,7 @@
 body {
   /*font-family: 'Roboto', sans-serif;*/
-  color: #333;
-  margin: 0;
+
+  background-color: #333;
 }
 
 img {
@@ -9,10 +9,18 @@ img {
   height: auto;
 }
 
-*{
+*, *::after, *::before{
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 a {
-  color: ;
+  text-decoration: none;
+  color: #000;
+}
+
+aside{
+  margin: 0;
+  padding: 0;
 }

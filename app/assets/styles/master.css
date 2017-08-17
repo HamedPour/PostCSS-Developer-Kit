@@ -8,3 +8,6 @@
 in any new projects*/
 
 @import "modules/_btn";
+@import "modules/_wrapper";
+@import "modules/_topSection";
+@import "modules/_burgerMenu";

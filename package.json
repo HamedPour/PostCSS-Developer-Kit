@@ -1,13 +1,13 @@
 {
-  "name": "postcss-starter-kit",
+  "name": "VRwebsite",
   "version": "1.0.0",
-  "description": "A quick PostCss starter kit with a lot dev and prod plugins",
+  "description": "A mock website",
   "main": "App.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "postcss"
+    ""
   ],
   "author": "Hamed Pour",
   "license": "ISC",

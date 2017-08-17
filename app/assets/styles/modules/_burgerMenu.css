@@ -1,0 +1,6 @@
+.burgerMenu{
+  top: 50px;
+  right: 50px;
+  position: fixed ;
+  font-size: 3rem;
+}
