@@ -1,3 +1,6 @@
+/*Note to User: Change width to best suit your needs*/
+
+
 @define-mixin atSmall {
   @media (min-width: 530px){
     @mixin-content;

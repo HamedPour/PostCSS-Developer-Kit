@@ -1,91 +1,63 @@
 html {
-
   line-height: 1.15;
-
   -ms-text-size-adjust: 100%;
-
   -webkit-text-size-adjust: 100%;
 }
 h1 {
-
   font-size: 2em;
-
   margin: 0.67em 0;
 }
 main {
-
   display: block;
 }
 hr {
-
   box-sizing: content-box;
-
   height: 0;
-
   overflow: visible;
 }
 pre {
-
   font-family: monospace, monospace;
-
   font-size: 1em;
 }
 a {
-
   background-color: transparent;
-
   -webkit-text-decoration-skip: objects;
 }
 abbr[title] {
-
   border-bottom: none;
-
   text-decoration: underline;
-
   text-decoration: underline dotted;
 }
 b,
 strong {
-
   font-weight: bolder;
 }
 code,
 kbd,
 samp {
-
   font-family: monospace, monospace;
-
   font-size: 1em;
 }
 small {
-
   font-size: 80%;
 }
 sub,
 sup {
-
   font-size: 75%;
-
   line-height: 0;
-
   position: relative;
-
   vertical-align: baseline;
 }
 sub {
-
   bottom: -0.25em;
 }
 sup {
-
   top: -0.5em;
 }
 img {
-
   border-style: none;
 }
 svg:not(:root) {
-
   overflow: hidden;
 }
 button,
@@ -93,118 +65,89 @@ input,
 optgroup,
 select,
 textarea {
-
   margin: 0;
 }
 button,
 input {
-
   overflow: visible;
 }
 button,
 select {
-
   text-transform: none;
 }
 button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-
   -webkit-appearance: button;
 }
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
-
   border-style: none;
-
   padding: 0;
 }
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-
   outline: 1px dotted ButtonText;
 }
 fieldset {
-
   padding: 0.35em 0.75em 0.625em;
 }
 legend {
-
   box-sizing: border-box;
-
   color: inherit;
-
   display: table;
-
   max-width: 100%;
-
   padding: 0;
-
   white-space: normal;
 }
 progress {
-
   vertical-align: baseline;
 }
 textarea {
-
   overflow: auto;
 }
 [type="checkbox"],
 [type="radio"] {
-
   box-sizing: border-box;
-
   padding: 0;
 }
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
-
   height: auto;
 }
 [type="search"] {
-
   -webkit-appearance: textfield;
-
   outline-offset: -2px;
 }
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
-
   -webkit-appearance: none;
 }
 ::-webkit-file-upload-button {
-
   -webkit-appearance: button;
-
   font: inherit;
 }
 details {
-
   display: block;
 }
 summary {
-
   display: list-item;
 }
 template {
-
   display: none;
 }
 [hidden] {
-
   display: none;
 }
 /*$mainBlue: #2f5572; For Example*/
+/*Note to User: Change width to best suit your needs*/
 body {
-  /*font-family: 'Roboto', sans-serif;*/
-
-  background-color: #333;
+  background-color: #ccc;
 }
 img {
   max-width: 100%;
@@ -220,113 +163,60 @@ a {
   text-decoration: none;
   color: #000;
 }
-aside{
-  margin: 0;
-  padding: 0;
-}
-/*@import "modules/_sprite";*/
-/*Whichever else you need link from modules - Make sure to edit the old files before us
-in any new projects*/
-.btn {
-  /*background-color: $mainBlue;*/
-  color: #fff;
-  text-decoration: none;
-  padding: .75rem 1.2rem;
-  display: inline-block;
-
-
-
-}
-.btn--orange{
-    background-color: ;
-  }
-.btn--large{
-    font-size: 1rem;
-    padding: 1.1rem 1.9rem;
-  }
-@media (min-width: 800px){
-.btn--large{
-      font-size: 1.3rem
-  }
-  }
-.wrapper {
-  background-color: #ccc;
-  overflow: hidden;
-  max-width: 100vw;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-.wrapper--medium {
-    max-width: 976px;
-  }
-.wrapper--narrow{
-    max-width: 470px;
-  }
-.wrapper .wrapper {
-    padding-left: 0;
-    padding-right: 0;
-  }
-.wrapper--b-margin{
-    margin-bottom: 1rem;
-
-  }
-@media (min-width: 800px){
-.wrapper--b-margin{
-      margin-bottom: 3.87rem
-
-  }
-  }
-.wrapper--no-padding-until-medium {
-    padding-left: 0;
-  }
-@media (min-width: 800px){
-.wrapper--no-padding-until-medium {
-      padding-left: 18px;
-      padding-right: 18px
-  }
-  }
-.wrapper--no-padding-until-large {
-    padding-left: 0;
-  }
-@media (min-width: 1010px){
-.wrapper--no-padding-until-large {
-      padding-left: 18px;
-      padding-right: 18px
-  }
-  }
-.topSection{
-  height: 100vh;
-  width: 100vw;
-  background: url("../assets/images/topBackground.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.topSection-title {
-    margin: 0;
-    padding: 0;
-    font-size: 4.4rem;
-    padding-top: 62px;
-    padding-left: 125px;
-  }
-.topSection-title aside:nth-child(2){
-      padding-left: 140px;
+/*Do not edit mdoules/_sprite directly as it is generated automatically by Gulp
+Instead edit gulp/templates/sprite.css */
+.icon {
+      background-image: url('../../assets/images/sprites/sprite-3dc83d52.svg');
     }
-.topSection-title aside:nth-child(3){
-      padding-left: 280px;
+.no-svg . icon {
+      background-image: url('../../assets/images/sprites/sprite-3dc83d52.png');
     }
-.topSection-title-sub{
-      color: #fff;
-      font-size: 1.8rem;
-      text-align: center;
-      max-width: 460px;
-      padding-top: 130px;
-      margin-left: 160px;
-    }
-.burgerMenu{
-  top: 50px;
-  right: 50px;
-  position: fixed ;
-  font-size: 3rem;
+.icon--facebook {
+    width: 23.23px;
+    height: 44.01px;
+    background-position: 36.89373670851341% 98.52216748768471%
+  }
+.icon--globe {
+    width: 66px;
+    height: 66px;
+    background-position: 0 0
+  }
+.icon--instagram {
+    width: 44.01px;
+    height: 44.01px;
+    background-position: 61.61292903432275% 98.52216748768471%
+  }
+.icon--mail {
+    width: 66px;
+    height: 50px;
+    background-position: 64.07766990291262% 0
+  }
+.icon--twitter {
+    width: 53.78px;
+    height: 44.06px;
+    background-position: 0 98.59575739468181%
+  }
+.icon--youtube {
+    width: 36.75px;
+    height: 44px;
+    background-position: 99.8109640831758% 0
+  }
+.icon {
+  display: block;
 }
+/*Everything else can be linked from modules below - Make sure to edit the old
+files before us in any new projects=========================================*/
+.test {
+  width: 500px;
+  margin-left: 25vw;
+
+  
+}
+.test h1 {
+
+    text-align: center;
+  }
+.test span{
+
+    display: inline-block;
+  }

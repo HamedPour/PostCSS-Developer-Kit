@@ -1,13 +1,27 @@
 @import "base/_variables";
 @import "base/_mixins";
 @import "base/_global";
+@import "modules/_sprite";
+@import "modules/_icon";
 
-/*@import "modules/_sprite";*/
+/*Everything else can be linked from modules below - Make sure to edit the old
+files before us in any new projects=========================================*/
 
-/*Whichever else you need link from modules - Make sure to edit the old files before us
-in any new projects*/
 
-@import "modules/_btn";
-@import "modules/_wrapper";
-@import "modules/_topSection";
-@import "modules/_burgerMenu";
+
+.test {
+  width: 500px;
+  margin-left: 25vw;
+
+  h1 {
+
+    text-align: center;
+  }
+
+  span{
+
+    display: inline-block;
+  }
+
+  
+}
