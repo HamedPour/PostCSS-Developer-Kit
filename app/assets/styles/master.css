@@ -6,22 +6,3 @@
 
 /*Everything else can be linked from modules below - Make sure to edit the old
 files before us in any new projects=========================================*/
-
-
-
-.test {
-  width: 500px;
-  margin-left: 25vw;
-
-  h1 {
-
-    text-align: center;
-  }
-
-  span{
-
-    display: inline-block;
-  }
-
-  
-}
