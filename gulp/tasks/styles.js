@@ -6,16 +6,16 @@ nested = require('postcss-nested'),
 postimport = require('postcss-import'),
 mixins = require('postcss-mixins'),
 normalize = require('postcss-normalize'),
-hexrgba = require('postcss-hexrgba'),
 sourcemaps = require('gulp-sourcemaps'),
-lost = require('lost');
+lost = require('lost'),
+rucksack = require('rucksack-css');
 // =============================================================================
 
 
 gulp.task('styles', function(){
   var plugins = [
-                postimport, mixins, lost,
-                simpleVars, nested, hexrgba, autoprefixer, normalize
+                postimport, mixins, lost, rucksack,
+                simpleVars, nested, autoprefixer, normalize
               ]
   return gulp.src('./app/assets/styles/master.css')
     .pipe(sourcemaps.init())
